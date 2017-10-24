@@ -15,7 +15,9 @@ import binascii
 import json
 from network import LoRa
 
-DATA_PACKET = {"acceleration":0,
+DATA_PACKET = {"type":"test",
+               "device":"lopy",
+               "acceleration":0,
                "roll": 0,
                "pitch": 0,
                "yaw": 0
